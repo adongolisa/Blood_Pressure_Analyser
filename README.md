@@ -22,13 +22,13 @@ In this step, we'll create a basic Flask app that allows users to upload an imag
 1. Let's start by cloning the base repository that contains the basic Flask app, sample images and the requirements.txt file that lists the dependencies.
 
 ```bash
-git clone https://github.com/dftaiwo/bp-workshop.git
+git https://github.com/adongolisa/Blood_Pressure_Analyser.git
 ```
 This repository contains the basic Flask app that we'll build upon in the subsequent steps.
 2. Navigate to the project directory:
 
 ```bash
-cd bp-workshop
+cd Blood_Pressure_Analyser
 ```
 
 3. Setup the Python3.9+ virtual environment:
@@ -378,16 +378,6 @@ Remember to clean up your resources to avoid incurring charges.
 Visit <a href="https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service#clean-up" target="_blank">Clean up</a> for more details.
 
 
-## Final Checkpoint
 
-You have now built a Flask app that uses Google's Gemini API to analyze images of blood pressure monitors. You have also deployed the app to a google cloud run service.
 
-***Congratulations! You're a Gemini, Flask and Cloud Run pro now***! 
 
-You can extend this app to:
-- handle more use cases and improve the UI/UX
-- have a way to store the readings and provide a history of readings, 
-- send notifications when readings are too high or too low
-- allow the user to interact and ask questions about the readings.
-
-To see a more more complete version of the Blood Pressure Tracker, visit <a href="https://mybp.d4devs.com" target="_blank">https://mybp.d4devs.com</a>
